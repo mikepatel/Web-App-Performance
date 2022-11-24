@@ -20,3 +20,6 @@ pipenv install -r requirements.txt
 ```
 python run.py
 ```
+
+## Results
+Requests take about 450-500 ms for 5MB payloads
