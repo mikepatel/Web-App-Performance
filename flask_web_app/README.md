@@ -22,4 +22,4 @@ python run.py
 ```
 
 ## Results
-Requests take about 450-500 ms for 5MB payloads
+Requests take about 450-500ms for 5MB payloads
