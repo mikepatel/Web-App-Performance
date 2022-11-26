@@ -10,18 +10,10 @@ app = Flask(__name__)
 
 @app.route("/data", methods=["GET"])
 def get_data():
-    data = _helper()
+    data = {
+        "Message": "This is the message."
+    }
     return data
-
-
-################################################################################
-# Helper function
-def _helper():
-    output = []
-    for i in range(100000):
-        output.append({"Index": i, "Value": i*i})
-
-    return output
 
 
 ################################################################################
