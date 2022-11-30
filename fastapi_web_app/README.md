@@ -9,6 +9,9 @@ docker build -t app .
 docker run --name app -p 8000:8000 app
 ```
 
+```
+gunicorn run:app --workers 4 --worker-class uvicorn.workers.UvicornWorker
+```
 
 
 ## Results
